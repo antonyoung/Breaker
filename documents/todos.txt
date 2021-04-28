@@ -1,0 +1,39 @@
+01: globalisation / localisation
+-	translations
+x 	implement
+
+02: Trophies
+-	Trophie validation
+-	Trophie achieved display
+
+03: Cheats
+
+04: Pause Screen
+X	activation / deactivation
+X 	continue
+X	settings
+X	exit
+
+05: settings 
+x	save / load settings
+x	use settings in game
+-	edit settings in settings screen
+
+06: settings screen
+-	use slider control
+-	use settings functionality
+
+07: Game
+-	Level completed / go to next level
+-	Collision detection
+-	Design levels
+
+08: General
+-	Design Breaker tile
+	
+
+09 refractor
+- assembly signing
+- tiledlib
+- slider control
+- code review / comments

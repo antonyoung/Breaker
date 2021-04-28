@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+ 
+
+  <Asset Type="Graphics:FontDescription">
+    <!--
+      <Asset Type="RsxContentLibrary.LocalizedFontDescription">
+     -->  
+    <FontName>Segoe UI</FontName>
+		<Size>32</Size>
+		<Spacing>2</Spacing>
+		<Style>Bold</Style>
+		<CharacterRegions>
+			<CharacterRegion>
+				<Start>&#32;</Start>
+        <End>&#252;</End>
+			</CharacterRegion>
+		</CharacterRegions>
+	</Asset>
+  <!--
+  <ResourceFiles>
+    <Resx>Resources.en_EN.resx</Resx>
+    <Resx>Resources.es_ES.resx</Resx>
+    <Resx>Resources.nl_NL.resx</Resx>
+  </ResourceFiles>
+ -->
+</XnaContent>

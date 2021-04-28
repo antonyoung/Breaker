@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="200" tilewidth="48" tileheight="48">
+ <properties>
+  <property name="Level" value="03"/>
+ </properties>
+ <tileset firstgid="1" name="breakables" tilewidth="48" tileheight="48">
+  <image source="TileSheets/breakables.png" trans="000000" width="192" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="BallIndex" value="0"/>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="BallIndex" value="1"/>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="BallIndex" value="2"/>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="BallIndex" value="3"/>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="VectorX" value="1"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="20"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="30"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="40"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="20"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="30"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="40"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="20"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="30"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="40"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="20"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="30"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="40"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="PlayerSize" value="2"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="PlayerSize" value="0"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="PlayerCount" value="2"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="PlayerCount" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="background" tilewidth="48" tileheight="48">
+  <image source="TileSheets/background.png" trans="000000" width="192" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="IsStartPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="IsStartPoint" value="true"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="IsStartPoint" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="IsStartPoint" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="IsBreakable" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="16" height="200">
+  <properties>
+   <property name="IsPasable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDofNV/75mYw9IWDVVVVVVVVVVVVVVVVXfPqIp8n0AMgAA
+  </data>
+ </layer>
+ <layer name="Breakables" width="16" height="200">
+  <properties>
+   <property name="IsPasable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1aDW8TMQwNH9XGRyWKmEQZbbUN9sEYTAKJ/f9fRk6KNe9h++WyVCvqWXrqOfZL4tydk0t6ktrlpGDip/TOQCK2nvwPBXidoEyX9+R/LMDrBGW6vCf/s4FEbD35LTLxJz7yRZ8BkuNrlQ3+pxlf1O+ski/+KFZ5z/h1nJHgeGC8THA8anlePb3v/6+Ms4Lfhs74NxmrjHW5Rp3xW/q/MGyLyb7XdiYe/4iA8ecE2+h/q1j5j8XP8h+Lf9fz3yCvM94EOuO/yngb6IxfK8ivqQv9vypdrqP40f9K6XIdxY/+f9L9/HJX0X/0P8+4KLis4KP/t4zrgu+JP//ojzp7/tH/R8bPgtuK/qN/ND9bgv54P1j86K/n9JsgbgH679r693/jD+/gLD18Lxfp4ZyCuubI/bwK/FHXnAGbBr5w5H2+C/xR15wzAOOfKt9h/hjywWXpz2EF/6D4Cm94H28b+MLD/rT0H/NfxGf5j/FZ/hvLt/JfxEd/WT8dpno5SP+uv4Rf8/0T8TG/oW7xW0X4ywKR4Xqu7HPDvgz4c8M+D/jYLvYP6221e/Vb/Yvix/iYndXP+lcb3xR/n/iZsPjZ+t+LX+Sp1v+9+GO/f3D8WfzW+F8Um74PKEv1K+OP85k1H+h8y+Y/xmfz31h+zXym+ei/7/Hj87tOvqxA9/YfrDqQq/cfNo7/Wv2ibIL2a0S3z765POj1SwuEz74ZPeD6Yyx2NX8+lv8p4zjdn/UdlzKPH70v+2BHGTt+lkgdHpfxpQ6PW8Nn0pMv+7rPMp5nvMh4aehs/5fxt7H/y/Jba/6rtbP81pr/au2e1No9nxqbN/8x/ib1aV/WM3rvV+9vWftjmiPrCb33ivtbuiwBx2pf729Z+2Osfb2/Ze2PaY6VH5mw/Cri5a8afpQ/GZ/l723zH9t/XUfr+EXizX/e+6DL0B/Pc6znUZex8x/WPjv/Ye2z8x99vzXkeWDfPxZX18G+fzyuoPf5T+/zLzZ/s/jH8nft/IsJO/9aAdaA6PyrZi2H/r3Wf3q/Xc42PF18df56r8rlbCMZuvb12meC7bdKr/Yxfsbdxfj3/f9v+x7/xJ/4T8H/C1g+8CsAMgAA
+  </data>
+ </layer>
+ <layer name="Tunnels" width="16" height="200">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Z0QkAIAxDwa6koPuPZpeoELiD95cNUgUAAECK093BPbNWtwf3AAAAAABAHv8PyfxfAPDXA+hMYZ8AMgAA
+  </data>
+ </layer>
+</map>

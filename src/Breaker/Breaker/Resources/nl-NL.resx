@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>Over Breaker</value>
+  </data>
+  <data name="AboutMenuItemReview" xml:space="preserve">
+    <value>Recentie Breaker</value>
+  </data>
+  <data name="AboutMenuText" xml:space="preserve">
+    <value>Developed &amp; Designed by#Anton Young "Amsterdam" The Netherlands#Senior Developer @Macaw Nederland B.V##Music Composed by#Stef de Wit "Zaanstad" The Netherlands####Translated by##Jaime Garcia-Figueruelo "Spanish"#Jospeh Maria-Oretga "Portugeuse"#Jana Stara "Czech"#Anton Young "Dutch"#Danial Kearney "Irish"#Anton Young "English"#Jenny Young-Hollingworth "French"###History:##Radarsoft in 1987 developed a similiar game#named also Breaker for the MSX 2 home computer.###                              Anton Young 2011 (c)</value>
+  </data>
+  <data name="CheatsMenu" xml:space="preserve">
+    <value>Breaker Valsspelen</value>
+  </data>
+  <data name="CheatsMenuItemDoublePlayer" xml:space="preserve">
+    <value>Cheat: Start met 2 spelers</value>
+  </data>
+  <data name="CheatsMenuItemLocked" xml:space="preserve">
+    <value># Vergrendeld</value>
+  </data>
+  <data name="GameOverMenu" xml:space="preserve">
+    <value>EINDE SPEL</value>
+  </data>
+  <data name="GameOverMenuItemRetry" xml:space="preserve">
+    <value>Opnieuw</value>
+  </data>
+  <data name="InformationExtraBall" xml:space="preserve">
+    <value>XBal:</value>
+  </data>
+  <data name="InformationLevel" xml:space="preserve">
+    <value>NIVEAU:{0:00}</value>
+  </data>
+  <data name="InformationLives" xml:space="preserve">
+    <value>BAL:{0:00}</value>
+  </data>
+  <data name="InformationPoints" xml:space="preserve">
+    <value>SCORE:{0:0000000}</value>
+  </data>
+  <data name="LoadLoading" xml:space="preserve">
+    <value>aan het laden...</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Breaker Menu</value>
+  </data>
+  <data name="MainMenuItemGame" xml:space="preserve">
+    <value>Nieuw Spel</value>
+  </data>
+  <data name="MainMenuItemOptions" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="MenuItemBack" xml:space="preserve">
+    <value>Terug</value>
+  </data>
+  <data name="MenuItemExit" xml:space="preserve">
+    <value>Sluiten</value>
+  </data>
+  <data name="OptionsMenu" xml:space="preserve">
+    <value>Opties Menu</value>
+  </data>
+  <data name="OptionsMenuItemCheats" xml:space="preserve">
+    <value>Valsspelen</value>
+  </data>
+  <data name="OptionsMenuItemSettings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+  <data name="OptionsMenuItemTrophies" xml:space="preserve">
+    <value>Trofeeën</value>
+  </data>
+  <data name="SettingsLanguages" xml:space="preserve">
+    <value>Nederlands,Spaans,Engels</value>
+  </data>
+  <data name="SettingsMenu" xml:space="preserve">
+    <value>Instellingen Menu</value>
+  </data>
+  <data name="SettingsMenuItemBrightness" xml:space="preserve">
+    <value>Helderheid</value>
+  </data>
+  <data name="SettingsMenuItemLanguages" xml:space="preserve">
+    <value>Taal</value>
+  </data>
+  <data name="SettingsMenuItemVolume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="TrophieDescription20Points" xml:space="preserve">
+    <value>Breek 10.000 maal de 20 punten breekbaar</value>
+  </data>
+  <data name="TrophieDescription30Points" xml:space="preserve">
+    <value>Breek 10.000 maal de 30 punten breekbaar</value>
+  </data>
+  <data name="TrophieDescriptionAllCompleted" xml:space="preserve">
+    <value>Voltooi alle niveaus in het Spel</value>
+  </data>
+  <data name="TrophieDescriptionArrows" xml:space="preserve">
+    <value>Verlies jouw Bal terwijl je een pijl gebroken hebt</value>
+  </data>
+  <data name="TrophieDescriptionBonusCollector" xml:space="preserve">
+    <value>Verzamel 10.000 Bonus</value>
+  </data>
+  <data name="TrophieDescriptionBrokeIt" xml:space="preserve">
+    <value>Breek een breekbaar</value>
+  </data>
+  <data name="TrophieDescriptionCareful" xml:space="preserve">
+    <value>Voltooi een niveau zonder een bal te verliezen</value>
+  </data>
+  <data name="TrophieDescriptionDark" xml:space="preserve">
+    <value>Gebruik de tunnels tenminste 1000 keer</value>
+  </data>
+  <data name="TrophieDescriptionEasy" xml:space="preserve">
+    <value>Activeer de tweede speler 1000 keer</value>
+  </data>
+  <data name="TrophieDescriptionFirstLevel" xml:space="preserve">
+    <value>Voltooi de 1st niveau</value>
+  </data>
+  <data name="TrophieDescriptionGettingDark" xml:space="preserve">
+    <value>Ga door een Tunnel</value>
+  </data>
+  <data name="TrophieDescriptionHidden" xml:space="preserve">
+    <value>Breek totdat je deze Trophee ontgrendeld hebt</value>
+  </data>
+  <data name="TrophieDescriptionHighPoints" xml:space="preserve">
+    <value>Breek 10.000 maal de 40 punten breekbaar</value>
+  </data>
+  <data name="TrophieDescriptionHighScore" xml:space="preserve">
+    <value>Verdien 100.000 punten of meer</value>
+  </data>
+  <data name="TrophieDescriptionHopeless" xml:space="preserve">
+    <value>Faal de eerste niveau</value>
+  </data>
+  <data name="TrophieDescriptionLoose" xml:space="preserve">
+    <value>Verzamel 1000 keer een extra bal</value>
+  </data>
+  <data name="TrophieDescriptionLowScore" xml:space="preserve">
+    <value>Verdien 10.000 punten of meer</value>
+  </data>
+  <data name="TrophieDescriptionNowBreaking" xml:space="preserve">
+    <value>Breek een miljoen breekbaars</value>
+  </data>
+  <data name="TrophieDescriptionPlatinum" xml:space="preserve">
+    <value>Ontgrendel elk Trophee in Breaker</value>
+  </data>
+  <data name="TrophieDescriptionScared" xml:space="preserve">
+    <value>Verlies 1.000 keer je tweede speler</value>
+  </data>
+  <data name="TrophieDescriptionWonMillion" xml:space="preserve">
+    <value>Verdien een miljoen punten of meer</value>
+  </data>
+  <data name="TrophiesMenu" xml:space="preserve">
+    <value>Breaker Tropheeën</value>
+  </data>
+  <data name="TrophieTitle20Points" xml:space="preserve">
+    <value>20 Punten Breeker</value>
+  </data>
+  <data name="TrophieTitle30Points" xml:space="preserve">
+    <value>30 Punten Breeker</value>
+  </data>
+  <data name="TrophieTitleAllCompleted" xml:space="preserve">
+    <value>Behaal alle Niveaus</value>
+  </data>
+  <data name="TrophieTitleArrows" xml:space="preserve">
+    <value>Ik hou niet van Pijlen</value>
+  </data>
+  <data name="TrophieTitleBonusCollector" xml:space="preserve">
+    <value>Bonus Verzamelaar</value>
+  </data>
+  <data name="TrophieTitleBrokeIt" xml:space="preserve">
+    <value>Je hebt het gebroken</value>
+  </data>
+  <data name="TrophieTitleCareful" xml:space="preserve">
+    <value>Wees Voorzichtig</value>
+  </data>
+  <data name="TrophieTitleDark" xml:space="preserve">
+    <value>Ik Hou van om in het Donker te Zijn</value>
+  </data>
+  <data name="TrophieTitleEasy" xml:space="preserve">
+    <value>Doe het Makkelijk</value>
+  </data>
+  <data name="TrophieTitleFirstLevel" xml:space="preserve">
+    <value>Jouw Eerste Niveau</value>
+  </data>
+  <data name="TrophieTitleGettingDark" xml:space="preserve">
+    <value>Het wordt Donker hier</value>
+  </data>
+  <data name="TrophieTitleHidden" xml:space="preserve">
+    <value>Verborgen Trophee</value>
+  </data>
+  <data name="TrophieTitleHighPoints" xml:space="preserve">
+    <value>Hoge Punten Breaker</value>
+  </data>
+  <data name="TrophieTitleHighScore" xml:space="preserve">
+    <value>Hoge Score</value>
+  </data>
+  <data name="TrophieTitleHopeless" xml:space="preserve">
+    <value>Ik ben Waardeloos in dingen Kapot te maken</value>
+  </data>
+  <data name="TrophieTitleLoose" xml:space="preserve">
+    <value>Ik Hou niet van om te Verliezen</value>
+  </data>
+  <data name="TrophieTitleLowScore" xml:space="preserve">
+    <value>Lage Score</value>
+  </data>
+  <data name="TrophieTitleNowBreaking" xml:space="preserve">
+    <value>Nu ben je aan het Breken</value>
+  </data>
+  <data name="TrophieTitlePlatinum" xml:space="preserve">
+    <value>Breaker Trophee Kampioen</value>
+  </data>
+  <data name="TrophieTitleScared" xml:space="preserve">
+    <value>Ik ben niet Bang</value>
+  </data>
+  <data name="TrophieTitleWonMillion" xml:space="preserve">
+    <value>Win een Miljoen</value>
+  </data>
+  <data name="MainMenuItemAbout" xml:space="preserve">
+    <value>Over Beaker</value>
+  </data>
+  <data name="PauseMenu" xml:space="preserve">
+    <value>Pauze Menu</value>
+  </data>
+  <data name="PauseMenuItemContinue" xml:space="preserve">
+    <value>Doorgaan</value>
+  </data>
+  <data name="PauseMenuItemSettings" xml:space="preserve">
+    <value>Instellingen</value>
+  </data>
+</root>

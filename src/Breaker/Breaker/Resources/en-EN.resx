@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>About Breaker</value>
+  </data>
+  <data name="MenuItemBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="AboutMenuItemReview" xml:space="preserve">
+    <value>Review Breaker</value>
+  </data>
+  <data name="AboutMenuText" xml:space="preserve">
+    <value>Developed &amp; Designed by#Anton Young "Amsterdam" The Netherlands#Senior Developer @Macaw Nederland B.V##Music Composed by#Stef de Wit "Zaanstad" The Netherlands####Translated by##Jaime Garcia-Figueruelo "Spanish"#Jospeh Maria-Oretga "Portugeuse"#Jana Stara "Czech"#Anton Young "Dutch"#Danial Kearney "Irish"#Anton Young "English"#Jenny Young-Hollingworth "French"###History:##Radarsoft in 1987 developed a similiar game#named also Breaker for the MSX 2 home computer.###                              Anton Young 2011 (c)</value>
+  </data>
+  <data name="CheatsMenu" xml:space="preserve">
+    <value>Breaker Cheats</value>
+  </data>
+  <data name="CheatsMenuItemDoublePlayer" xml:space="preserve">
+    <value>Cheat: start as double player</value>
+  </data>
+  <data name="CheatsMenuItemLocked" xml:space="preserve">
+    <value># Locked</value>
+  </data>
+  <data name="GameOverMenu" xml:space="preserve">
+    <value>GAME OVER</value>
+  </data>
+  <data name="GameOverMenuItemRetry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="InformationExtraBall" xml:space="preserve">
+    <value>xBall:</value>
+  </data>
+  <data name="InformationLevel" xml:space="preserve">
+    <value>LEVEL:{0:00}</value>
+  </data>
+  <data name="InformationLives" xml:space="preserve">
+    <value>BALLS:{0:00}</value>
+  </data>
+  <data name="InformationPoints" xml:space="preserve">
+    <value>SCORE:{0:00000000}</value>
+  </data>
+  <data name="LoadLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Breaker Menu</value>
+  </data>
+  <data name="MainMenuItemAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MenuItemExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="MainMenuItemGame" xml:space="preserve">
+    <value>New Game</value>
+  </data>
+  <data name="MainMenuItemOptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="OptionMenuItemCheats" xml:space="preserve">
+    <value>Cheats</value>
+  </data>
+  <data name="OptionsMenu" xml:space="preserve">
+    <value>Breaker Options</value>
+  </data>
+  <data name="OptionsMenuItemCheats" xml:space="preserve">
+    <value>Cheats</value>
+  </data>
+  <data name="OptionsMenuItemLevel" xml:space="preserve">
+    <value>Level {0:00}</value>
+  </data>
+  <data name="OptionsMenuItemSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="OptionsMenuItemTrophies" xml:space="preserve">
+    <value>Trophies</value>
+  </data>
+  <data name="SettingsLanguages" xml:space="preserve">
+    <value>Dutch,Spanish,English</value>
+  </data>
+  <data name="SettingsMenu" xml:space="preserve">
+    <value>Breaker Settings</value>
+  </data>
+  <data name="SettingsMenuItemBrightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="SettingsMenuItemLanguages" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="SettingsMenuItemVolume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="TrophieDescription20Points" xml:space="preserve">
+    <value>Break 10.000 times the 20 points breakable</value>
+  </data>
+  <data name="TrophiesMenu" xml:space="preserve">
+    <value>Breaker Trophies</value>
+  </data>
+  <data name="TrophieDescription30Points" xml:space="preserve">
+    <value>Break 10.000 times the 30 points breakable</value>
+  </data>
+  <data name="TrophieDescriptionAllCompleted" xml:space="preserve">
+    <value>Completed all the Levels</value>
+  </data>
+  <data name="TrophieDescriptionArrows" xml:space="preserve">
+    <value>Loose your ball while you broke an Arrow</value>
+  </data>
+  <data name="TrophieDescriptionBonusCollector" xml:space="preserve">
+    <value>Collected 10.000 times a Bonus breabable</value>
+  </data>
+  <data name="TrophieDescriptionBrokeIt" xml:space="preserve">
+    <value>Break a breakable</value>
+  </data>
+  <data name="TrophieDescriptionCareful" xml:space="preserve">
+    <value>Complete a level without loosing a ball</value>
+  </data>
+  <data name="TrophieDescriptionDark" xml:space="preserve">
+    <value>Use  the tunnels at least 1000 times</value>
+  </data>
+  <data name="TrophieDescriptionEasy" xml:space="preserve">
+    <value>Activate 1000 times your second player</value>
+  </data>
+  <data name="TrophieDescriptionFirstLevel" xml:space="preserve">
+    <value>Complete the 1st Level</value>
+  </data>
+  <data name="TrophieDescriptionGettingDark" xml:space="preserve">
+    <value>Go threw a Tunnel</value>
+  </data>
+  <data name="TrophieDescriptionHighPoints" xml:space="preserve">
+    <value>Break 10.000 times the 40 points breakable</value>
+  </data>
+  <data name="TrophieDescriptionHidden" xml:space="preserve">
+    <value>Break until you have unlocked this Trophie</value>
+  </data>
+  <data name="TrophieDescriptionHighScore" xml:space="preserve">
+    <value>Earn 100.000 points or more</value>
+  </data>
+  <data name="TrophieDescriptionHopeless" xml:space="preserve">
+    <value>Fail to complete a Level</value>
+  </data>
+  <data name="TrophieDescriptionLoose" xml:space="preserve">
+    <value>Collect 1000 times an extra ball</value>
+  </data>
+  <data name="TrophieDescriptionLowScore" xml:space="preserve">
+    <value>Earn 10.000 points or more</value>
+  </data>
+  <data name="TrophieDescriptionNowBreaking" xml:space="preserve">
+    <value>Break one million breakables</value>
+  </data>
+  <data name="TrophieDescriptionPlatinum" xml:space="preserve">
+    <value>Unlocked every Trophie in Breaker</value>
+  </data>
+  <data name="TrophieDescriptionScared" xml:space="preserve">
+    <value>Loose 1.000 times your second player</value>
+  </data>
+  <data name="TrophieDescriptionWonMillion" xml:space="preserve">
+    <value>Earn one million points or more</value>
+  </data>
+  <data name="TrophieTitle20Points" xml:space="preserve">
+    <value>20 Points Breaker</value>
+  </data>
+  <data name="TrophieTitle30Points" xml:space="preserve">
+    <value>30 Points Breaker</value>
+  </data>
+  <data name="TrophieTitleAllCompleted" xml:space="preserve">
+    <value>Completed All Levels</value>
+  </data>
+  <data name="TrophieTitleArrows" xml:space="preserve">
+    <value>I do not like the Arrows</value>
+  </data>
+  <data name="TrophieTitleBonusCollector" xml:space="preserve">
+    <value>Bonus Collector</value>
+  </data>
+  <data name="TrophieTitleBrokeIt" xml:space="preserve">
+    <value>You Broke it</value>
+  </data>
+  <data name="TrophieTitleCareful" xml:space="preserve">
+    <value>Be Careful</value>
+  </data>
+  <data name="TrophieTitleDark" xml:space="preserve">
+    <value>I Like to be in the Dark</value>
+  </data>
+  <data name="TrophieTitleEasy" xml:space="preserve">
+    <value>Take it Easy</value>
+  </data>
+  <data name="TrophieTitleFirstLevel" xml:space="preserve">
+    <value>Your First Level</value>
+  </data>
+  <data name="TrophieTitleGettingDark" xml:space="preserve">
+    <value>Getting Dark here</value>
+  </data>
+  <data name="TrophieTitleHidden" xml:space="preserve">
+    <value>Hidden Trophie</value>
+  </data>
+  <data name="TrophieTitleHighPoints" xml:space="preserve">
+    <value>High Points Breaker</value>
+  </data>
+  <data name="TrophieTitleHighScore" xml:space="preserve">
+    <value>High Score</value>
+  </data>
+  <data name="TrophieTitleHopeless" xml:space="preserve">
+    <value>I am Hopeless in Breaking things</value>
+  </data>
+  <data name="TrophieTitleLoose" xml:space="preserve">
+    <value>I do not Like to Loose</value>
+  </data>
+  <data name="TrophieTitleLowScore" xml:space="preserve">
+    <value>Low Score</value>
+  </data>
+  <data name="TrophieTitleNowBreaking" xml:space="preserve">
+    <value>Now you are Breaking</value>
+  </data>
+  <data name="TrophieTitlePlatinum" xml:space="preserve">
+    <value>Breaker Trophie Champion</value>
+  </data>
+  <data name="TrophieTitleScared" xml:space="preserve">
+    <value>I am not Scared</value>
+  </data>
+  <data name="TrophieTitleWonMillion" xml:space="preserve">
+    <value>Won a Million</value>
+  </data>
+  <data name="PauseMenu" xml:space="preserve">
+    <value>Pause Menu</value>
+  </data>
+  <data name="PauseMenuItemContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="PauseMenuItemSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+</root>

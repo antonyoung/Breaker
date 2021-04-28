@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="200" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="breakables" tilewidth="48" tileheight="48">
+  <image source="TileSheets/breakables.png" trans="000000" width="192" height="384"/>
+  <tile id="12">
+   <properties>
+    <property name="IsBreakable" value="true"/>
+    <property name="Points" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="background" tilewidth="48" tileheight="48">
+  <image source="TileSheets/background.png" trans="000000" width="192" height="384"/>
+ </tileset>
+ <layer name="Background" width="16" height="200">
+  <properties>
+   <property name="IsPasable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDobNV/8ZmYw9IWDVVVVVVVVVVVVVVVVXfPthlxgMAMgAA
+  </data>
+ </layer>
+ <layer name="Walls" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Zi26DMAxF+RXadV336qRNWv//yxqkWLOuHK6BTgngK1ktxIfwiBOw+26++mzBBx988MEHv3d+7HiWb4k/JHtSv15e+7P9Ld2/0nmj8H54udJxHn3938mO2X6MbcZ/wH/cZvwUMT7a993OFHzMf1viPcdC/5PaPnVc6H9R25eOC/1/u7/15ebg0f852Tnbi4NH/9dkb9neHTz6L+U/k12zfTl49B9bny2h/9LnN7a+W0L/luJnjbzEoyd2RZqR5+l59iLNLOUlnj2xL9LMEYzpoHyH9WOYDzzzBkq4IR49cYsSDs+HyTr/Pc9/8f0T7dEe7XMUfDv8eSaP6xkbL2z9Yzxb/6byU9az3vDf+/UvHX+18w+1+w9+u/ze25mCfxzfYv639vhbS3vJx9NWu395n9G5D53fsvJjmpH3CZ17YPktzVj9M571r/NbVn5MM63Ef/D1+VI86H3oj/Ucazzqfaz+w/pn9R/Wf9R/xr//mLZ2/Vuqf3nmAvT/j/kHayKlGkmJx5pIqUbS2vwZ/Hy+xfd/prj+9fN3uVLeWQAyAAA=
+  </data>
+ </layer>
+ <layer name="P10" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YyxKDIAxF+QEWLrrw/3+0i7YzjiVcXi1izpnJAsJNjDpRCAEAAAAAvLGJOfz+/ApL/xCm9FHYL65/JKX1W5TWD3BFvL//3uu/A1v4/r7UfC/Qo19JP/L/b4a+l/1tx/Gx18aEPzdOrY+Z9da6M+e4tX4rfur6cvXXjlV8NW/FrfVTf1telUfl7c13d0bef/X8S/Kp8wIF+rX13lB7rpKzqBb7oPaMai+5Nxq8uOL56z/94BvV31r7X6lf9bfW/lfqB9/MPr9AP1cPANBDz/58M+ZzWitGS/4ReK8fYEWe/AexuwAyAAA=
+  </data>
+ </layer>
+ <layer name="P20" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="20"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UQQoAIAgEQN/h/x/aPRIKOxTMgBCCHio2AgAAAAAAAADgPbnZY+3G/WVxPt3h3YAfdfKrk5/d/Jb/5FSd2ZMd1ay/AAD3DPbWpi4AMgAA
+  </data>
+ </layer>
+ <layer name="P30" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="30"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UsQkAMAgEQPdw/z2zQBICphC8qyy0UfkIAAAAAAAAAICe8lDz5sf+sjALMFklP6v5Lf/n2t3s9Y63Pr8AAD0s1N2atQAyAAA=
+  </data>
+ </layer>
+ <layer name="P40" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="40"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Uqw0AIAwFQIZAsv+cGDQC0kDTu6Supp+81gAAAAAAAAAA/jVWccb+AHK6zW/5X8/u3n4BYvSg3iyqzw8vTIrLLSAAMgAA
+  </data>
+ </layer>
+ <layer name="XR" width="16" height="200">
+  <properties>
+   <property name="BallIndex" value="0"/>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VIQ4AAAgDMfj/p1FoFCQkrTsxvQgAAAAAAAAAAKDl0Nt7AOCe/wfggwIKWJkhADIAAA==
+  </data>
+ </layer>
+ <layer name="XB" width="16" height="200">
+  <properties>
+   <property name="BallIndex" value="2"/>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VIQ4AAAgDMRL+/2c8BgVBtO7E9CIAAAAAAAAAAIAuh97eAwD3/D8AnxV2zrSrADIAAA==
+  </data>
+ </layer>
+ <layer name="XY" width="16" height="200">
+  <properties>
+   <property name="BallIndex" value="3"/>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VoQ0AAAgDQQT7z8wCJCgI4s69qG4EAAAAAAAAAADQyaG39wDAPf8PwFcFRD55bgAyAAA=
+  </data>
+ </layer>
+ <layer name="XG" width="16" height="200" opacity="0.9">
+  <properties>
+   <property name="BallIndex" value="1"/>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VIQ4AAAgDMcL/H43FoSCI1p2YXgQAAAAAAAAAANDl0Nt7AOCe/wfguwLeFIFNADIAAA==
+  </data>
+ </layer>
+ <layer name="V1" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="0"/>
+   <property name="VectorY" value="-.2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YMQoAIQwEQBv//2WL60QhHhZqZiAgEou1CGIpAMAutavVs5G9k0Rzjvr+ZDv9PoA8zD+A+5i/AAAAQIT/X15SJ2sAAD7Z3//Z89+qAUyq1r8AMgAA
+  </data>
+ </layer>
+ <layer name="V2" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="-.2"/>
+   <property name="VectorY" value="-.2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WoQ0AQAwDsfLuv29HeOlJpcZmgcdSBQAAAP/6sa9L7wcAIEv6/03vBwAAAABg1wAtpwDPADIAAA==
+  </data>
+ </layer>
+ <layer name="V3" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="-.2"/>
+   <property name="VectorY" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsQ0AIAwDMEb+v5gfYAhV7DXKVIlWrAUAQKMtlz+Y3gcA7tjhc6VnZ/YAf0i/5/rZPjRJ/6+mc4BW6XtLP9sHAGhxABO9hU4AMgAA
+  </data>
+ </layer>
+ <layer name="V4" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="-.2"/>
+   <property name="VectorY" value=".2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WoREAQAgDQQqg/3op4cULZsiuizyXKgAAANjTj31dej8AAFnS/296PwAAAAAAfwYsPWk2ADIAAA==
+  </data>
+ </layer>
+ <layer name="V5" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="0"/>
+   <property name="VectorY" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAHg2usW81gAyAAA=
+  </data>
+ </layer>
+ <layer name="V6" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value=".2"/>
+   <property name="VectorY" value=".2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WoREAQAgDQSz9N0wJL14wQ3Zd5LlUAQAAwI5+7OvS+wEAyJL+f9P7AQAAAAD4N/39j2QAMgAA
+  </data>
+ </layer>
+ <layer name="V7" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value="-.2"/>
+   <property name="VectorY" value="0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YMQoAIAwDwG7+/8d+QBAXQ+ndGjIptVgFAMB0Sz46v5neBwDeeLv7S5+hOwDwR3pe62f7MEn6/zWdA3CW3sf0s30AgM42KFALoAAyAAA=
+  </data>
+ </layer>
+ <layer name="V8" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Points" value="10"/>
+   <property name="VectorX" value=".2"/>
+   <property name="VectorY" value="-.2"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WoQ0AQAwDseLuP3BHeOlJpcZmgcdSBQAAAH/6sa9L7wcAIEv6/03vBwAAAABg3wA2Lzn4ADIAAA==
+  </data>
+ </layer>
+ <layer name="T1" width="16" height="200">
+  <properties>
+   <property name="IsPasable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZwQkAQAgDQVvS/ou768CXgjAD+0sHiQAAAACgk78a3AMAAAAAAMAm/xfAPQ+oB0o+ADIAAA==
+  </data>
+ </layer>
+ <layer name="T2" width="16" height="200">
+  <properties>
+   <property name="IsPasable" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3ZMREAAAgDMUyBf2lggk7J3W910CoAAAAgoa953AMAAAAAAJDl/wEAkhbfZ8FRADIAAA==
+  </data>
+ </layer>
+ <layer name="P1" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Players" value="1"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQkAAAwDsEqZf5V7qqIkkAQAAAAAAAAAAAAAWHMNwIYH4b5FfwAyAAA=
+  </data>
+ </layer>
+ <layer name="P2" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Players" value="2"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQ0AIAgEQDZh/y0dQC2MwUS9qyj4hAqIAAAAAAAq5aFMpZV5Rr27eQAA7vHC/wsAq9y/Xk5qAGpk2LcAP2j2CwlsADIAAA==
+  </data>
+ </layer>
+ <layer name="PS" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Player" value="0"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsQkAMAwDsFzi/8/snqUUMoQigTF+wVUAAGyQywYAAAAAeDXxM059lWkNAADAv9ICwIwDuK/JlwAyAAA=
+  </data>
+ </layer>
+ <layer name="PL" width="16" height="200">
+  <properties>
+   <property name="IsBreakable" value="true"/>
+   <property name="Player" value="2"/>
+   <property name="Points" value="10"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YwQkAIAwDwC6S/df034+IiiB3EEoeWaBVAAC8lkkHAAAAADht5w+5uk27AAAA/CUtANwxAG17WwcAMgAA
+  </data>
+ </layer>
+</map>
