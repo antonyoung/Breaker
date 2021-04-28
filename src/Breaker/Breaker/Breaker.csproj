@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{62B70FC1-9E45-46DF-8B5E-C10D324795BA}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Windows Phone</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Breaker.Wp7.Xna4</RootNamespace>
+    <AssemblyName>Breaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows Phone</XnaPlatform>
+    <XnaProfile>Reach</XnaProfile>
+    <XnaCrossPlatformGroupID>545b8f1a-c8cb-4eae-ba4a-9eb362a36ff3</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <XapFilename>$(AssemblyName).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <XnaWindowsPhoneManifestTemplate>Properties\WMAppManifest.xml</XnaWindowsPhoneManifestTemplate>
+    <TileImage>Breaker.png</TileImage>
+    <TileTitle>Breaker</TileTitle>
+    <SupportedCultures>en-EN;nl-NL;es-ES</SupportedCultures>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <Thumbnail>Breaker.png</Thumbnail>
+    <GameStartupType>Breaker.Wp7.Xna4.BreakerGame</GameStartupType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows Phone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows Phone\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Windows Phone' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows Phone\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS_PHONE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Devices.Sensors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\CheatData.cs" />
+    <Compile Include="Data\SettingsData.cs" />
+    <Compile Include="Data\TrophieData.cs" />
+    <Compile Include="Elements\Animations\BallVectorAnimation.cs" />
+    <Compile Include="Elements\Animations\MapTileCollisionAnimation.cs" />
+    <Compile Include="Elements\Animations\TrophieAnimation.cs" />
+    <Compile Include="Elements\Collision\CollisionElement.cs" />
+    <Compile Include="Elements\Game\Cheats.cs" />
+    <Compile Include="Elements\Game\Ball.cs" />
+    <Compile Include="Elements\Game\Debug.cs" />
+    <Compile Include="Elements\Game\Information.cs" />
+    <Compile Include="Elements\Game\Player.cs" />
+    <Compile Include="Elements\Game\Trophies.cs" />
+    <Compile Include="Managers\IsolatedStorageManager.cs" />
+    <Compile Include="Resources\es-ES.Designer.cs">
+      <DependentUpon>es-ES.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Screens\Base\SettingsScreen.cs" />
+    <Compile Include="Screens\Base\PauseScreen.cs" />
+    <Compile Include="Screens\Elements\Shade.cs" />
+    <Compile Include="Screens\Elements\Trophie.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\en-EN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>en-EN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\ResourceManager.cs" />
+    <Compile Include="Resources\nl-NL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>nl-NL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\Base\GameScreen.cs" />
+    <Compile Include="Screens\Input\InputState.cs" />
+    <Compile Include="Managers\ScreenManager.cs" />
+    <Compile Include="Screens\Base\AboutScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Screens\BackgroundScreen.cs" />
+    <Compile Include="Screens\Elements\ScreenShader.cs" />
+    <Compile Include="Screens\CheatMenuScreen.cs" />
+    <Compile Include="Screens\AboutMenuScreen.cs" />
+    <Compile Include="Screens\PauseMenuScreen.cs" />
+    <Compile Include="Screens\TrophieMenuScreen.cs" />
+    <Compile Include="Screens\GameOverMenuScreen.cs" />
+    <Compile Include="Screens\GamePlayScreen.cs" />
+    <Compile Include="Screens\Base\LoadingScreen.cs" />
+    <Compile Include="Screens\MainMenuScreen.cs" />
+    <Compile Include="Screens\Elements\MenuItem.cs" />
+    <Compile Include="Screens\Base\MenuScreen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Screens\Base\MessageBoxScreen.cs" />
+    <Compile Include="Screens\OptionsMenuScreen.cs" />
+    <Compile Include="Screens\Input\PlayerIndexEventArgs.cs" />
+    <Compile Include="Screens\SettingsMenuScreen.cs" />
+    <Compile Include="Screens\Base\TrophieScreen.cs" />
+    <None Include="Properties\AppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <XnaPlatformSpecific>true</XnaPlatformSpecific>
+    </None>
+    <Compile Include="Program.cs" />
+    <Compile Include="BreakerGame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Breaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\RsxContentLibrary\RsxContentLibrary.csproj">
+      <Project>{31A07466-3210-438B-9768-82CB19E68B9B}</Project>
+      <Name>RsxContentLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\TmxContentLibrary\src\TmxContentLibrary.csproj">
+      <Project>{9959FACB-831B-4B63-B29B-B25D1800BFDD}</Project>
+      <Name>TmxContentLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BreakerContent\ContentBreaker.contentproj">
+      <Name>ContentBreaker %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{2B6AB46F-BEC0-4FA9-B422-9E166D74439E}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Screens\Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\en-EN.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>en-EN.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\es-ES.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>es-ES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\nl-NL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>nl-NL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
