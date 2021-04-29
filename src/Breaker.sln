@@ -5,11 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaker", "Breaker\Breaker\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentBreaker", "Breaker\BreakerContent\ContentBreaker.contentproj", "{2B6AB46F-BEC0-4FA9-B422-9E166D74439E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmxContentLibrary", "..\..\..\TmxContentLibrary\src\TmxContentLibrary.csproj", "{9959FACB-831B-4B63-B29B-B25D1800BFDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmxContentLibrary", "TmxContentLibrary\src\TmxContentLibrary.csproj", "{9959FACB-831B-4B63-B29B-B25D1800BFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmxContentPipeline", "..\..\..\TmxContentPipeline\src\TmxContentPipeline.csproj", "{EA5B12BF-D08C-42EF-9C73-FD4A50258BDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TmxContentPipeline", "TmxContentPipeline\src\TmxContentPipeline.csproj", "{EA5B12BF-D08C-42EF-9C73-FD4A50258BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsxContentLibrary", "..\..\..\RsxContentLibrary\RsxContentLibrary.csproj", "{31A07466-3210-438B-9768-82CB19E68B9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsxContentLibrary", "RsxContentLibrary\RsxContentLibrary.csproj", "{31A07466-3210-438B-9768-82CB19E68B9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

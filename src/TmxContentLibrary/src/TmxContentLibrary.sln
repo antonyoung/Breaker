@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.Tmx", "Libraries.Tmx.csproj", "{FD5A3046-4346-456D-BADD-5EEDDE963F17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD5A3046-4346-456D-BADD-5EEDDE963F17}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{FD5A3046-4346-456D-BADD-5EEDDE963F17}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{FD5A3046-4346-456D-BADD-5EEDDE963F17}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{FD5A3046-4346-456D-BADD-5EEDDE963F17}.Release|Windows Phone.Build.0 = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
